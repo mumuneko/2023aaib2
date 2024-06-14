@@ -1,6 +1,6 @@
 ///File-New-Empty,存檔 week05-1.cpp
 #include <stdio.h>
-int main()
+int main() 
 {
     ///int a,b;
     int a[4];///陣列的宣告
