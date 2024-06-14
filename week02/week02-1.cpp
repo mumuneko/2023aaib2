@@ -1,14 +1,14 @@
-///����:�q���ѦҸյ{���X�o(copy)
-///�ƲߤW�g�Ъ�printf()��f�榡
+///註解:從今天考試程式出發(copy)
+///複習上週教的printf()的f格式 
 #include <stdio.h>
 int main()
 {
     int a,b;
-    printf("�п�J��Ӿ��:");///���L����A���ܧA��J
-    scanf("%d %d",&a,&b);///scanf()�n�[&�Ÿ�
-    printf("�A�{�b��J�F2�ӼƦr,�����[�k:\n");
-    printf("%5d\n",a);///�L�X�ӡA5�檺��ơA�᭱\n����
-    printf("%5d\n",b);///�L�X�ӡA5�檺��ơA�᭱\n����
-    printf("------\n");///�L�X�@���A�᭱\n����
-    printf("%5d\n",a+b);///�L�X�ӡA5�檺��ơA�᭱\n����
+    printf("請輸入兩個整數:");///先印中文，提示你輸入
+    scanf("%d %d",&a,&b);///scanf()要加&符號
+    printf("你現在輸入了2個數字,直式加法:\n");
+    printf("%5d\n",a);///印出來，5格的整數，後面\n跳行
+    printf("%5d\n",b);///印出來，5格的整數，後面\n跳行
+    printf("------\n");///印出一堆減號，後面\n跳行
+    printf("%5d\n",a+b);///印出來，5格的整數，後面\n跳行
 }
