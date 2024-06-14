@@ -1,9 +1,9 @@
 ///week03-1.cpp
-#include <stdio.h>
+#include <stdio.h> 
 int main()
 {
     int a=5;
     while (a%2==1) printf("odd\n");
     while(a>0) printf("a is >0\n");
 }
-///°õ¦æwhile ®É¡A³ºµM´N¥d¦b¤W­±
+///åŸ·è¡Œwhile æ™‚ï¼Œç«Ÿç„¶å°±å¡åœ¨ä¸Šé¢
